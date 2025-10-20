@@ -87,13 +87,13 @@ export default function Hero() {
           <div className="relative h-full w-full flex items-center justify-center">
             <div className="relative w-56 h-56 md:w-72 md:h-72 rounded-full overflow-hidden ring-2 ring-black/5 dark:ring-white/10 shadow-2xl bg-gradient-to-br from-white to-blue-50 dark:from-neutral-900 dark:to-neutral-800">
               <img
-                src="/profile.png"
+                src={`${import.meta.env.BASE_URL}profile.png`}
                 alt="Dhanush portrait"
                 loading="eager"
                 className="h-full w-full object-cover"
                 onError={(e) => {
                   e.currentTarget.onerror = null;
-                  e.currentTarget.src = '/profile.jpg';
+                  e.currentTarget.src = `${import.meta.env.BASE_URL}profile.jpg`;
                   e.currentTarget.addEventListener('error', () => { e.currentTarget.src = heroVisual; }, { once: true });
                 }}
               />
