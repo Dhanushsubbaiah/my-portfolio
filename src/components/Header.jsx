@@ -7,7 +7,7 @@ export default function Header({ darkMode, onToggle }) {
       <div className="flex items-center gap-6">
         <a href="#about" className="text-sm text-neutral-700 dark:text-neutral-300 hover:text-blue-600 dark:hover:text-blue-400">About</a>
         <a href="#projects" className="text-sm text-neutral-700 dark:text-neutral-300 hover:text-blue-600 dark:hover:text-blue-400">Projects</a>
-        <a href="/resume.html" className="text-sm text-neutral-700 dark:text-neutral-300 hover:text-blue-600 dark:hover:text-blue-400">Resume</a>
+        <a href={`${import.meta.env.BASE_URL}resume.html`} className="text-sm text-neutral-700 dark:text-neutral-300 hover:text-blue-600 dark:hover:text-blue-400">Resume</a>
         <a href="#collaborate" className="text-sm text-neutral-700 dark:text-neutral-300 hover:text-blue-600 dark:hover:text-blue-400">Contact</a>
         <button
           onClick={onToggle}
@@ -25,4 +25,3 @@ export default function Header({ darkMode, onToggle }) {
     </nav>
   );
 }
-

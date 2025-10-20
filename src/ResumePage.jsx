@@ -29,9 +29,9 @@ export default function ResumePage() {
         <InteractiveBackground />
 
         <nav className="sticky top-0 z-20 w-full px-6 py-4 flex items-center justify-between bg-white/70 dark:bg-neutral-900/60 backdrop-blur border-b border-black/5 dark:border-white/10">
-          <a href="/" className="text-xl md:text-2xl font-extrabold tracking-tight">Dhanush K J</a>
+          <a href={`${import.meta.env.BASE_URL}`} className="text-xl md:text-2xl font-extrabold tracking-tight">Dhanush K J</a>
           <div className="flex items-center gap-4">
-            <a href="/" className="text-sm text-neutral-700 dark:text-neutral-300 hover:text-blue-600 dark:hover:text-blue-400">Home</a>
+            <a href={`${import.meta.env.BASE_URL}`} className="text-sm text-neutral-700 dark:text-neutral-300 hover:text-blue-600 dark:hover:text-blue-400">Home</a>
             <button
               onClick={() => setDarkMode(!darkMode)}
               className="p-2 rounded-full bg-blue-600 text-white hover:rotate-180 transition-transform"
