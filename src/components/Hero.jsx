@@ -65,7 +65,7 @@ export default function Hero() {
             <a href="#projects" className="inline-flex items-center justify-center rounded-full bg-blue-600 px-6 py-3 text-white font-semibold shadow hover:bg-blue-700 transition-colors">
               View Projects
             </a>
-            <a href="${import.meta.env.BASE_URL}resume.html" className="inline-flex items-center justify-center rounded-full border border-black/10 dark:border-white/20 px-6 py-3 font-semibold hover:border-blue-400 hover:text-blue-500 dark:hover:text-blue-400 transition-colors">
+            <a href="resume.html" className="inline-flex items-center justify-center rounded-full border border-black/10 dark:border-white/20 px-6 py-3 font-semibold hover:border-blue-400 hover:text-blue-500 dark:hover:text-blue-400 transition-colors">
               Resume
             </a>
             <a href="https://github.com/Dhanushsubbaiah" aria-label="GitHub" className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-black/10 dark:border-white/20 text-neutral-600 hover:text-neutral-900 hover:bg-black/5 dark:text-white/70 dark:hover:text-white dark:hover:bg-white/10 transition-colors">
