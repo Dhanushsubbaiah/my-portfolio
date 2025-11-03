@@ -60,7 +60,7 @@ export default function ResumePage() {
           <section className="px-4 pb-20 -mt-8">
             <div className="max-w-5xl mx-auto flex justify-end">
               <a
-                href="https://drive.google.com/uc?export=download&id=1hQANPWhJP9eSj3-AGv6GfjuZolKjQNM7"
+                href="https://drive.google.com/file/d/1aWRMUJLiIu17QdA-ZmJhaXCjRIe1gxEo/view?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-full bg-blue-600 px-6 py-3 text-white font-semibold shadow hover:bg-blue-700 active:scale-[0.98] transition-all"
