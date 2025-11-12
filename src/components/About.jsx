@@ -6,7 +6,7 @@ export default function About() {
       <div className="max-w-5xl mx-auto">
         <h3 className="text-3xl font-extrabold mb-6 text-blue-400">About</h3>
         <p className="text-base leading-relaxed text-neutral-700 dark:text-neutral-300 mb-8">
-          I’m Dhanush — a software developer passionate about creating seamless user experiences and intelligent systems.
+          I’m Dhanush, a software developer passionate about creating seamless user experiences and intelligent systems.
           My expertise spans full‑stack development, AI/ML experimentation, and blockchain DApp engineering.
         </p>
         <div className="grid gap-4 sm:grid-cols-2">
