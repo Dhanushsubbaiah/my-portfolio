@@ -18,13 +18,15 @@ const resume = {
   experience: [
     {
       company: 'ReplyQuick.AI',
-      role: 'Software Developer Intern',
+      role: 'Software Engineer',
       start: 'Aug 2025',
       end: 'Present',
       bullets: [
-        'Designed and implemented efficient API endpoints using TSOA, reducing server load by ~15% and improving API stability.',
-        'Integrated AI-driven voice and messaging tools (RetellAI, Twilio, OpenAI) to automate lead responses and reduce manual outreach by ~25%.',
-        'Collaborated with the frontend team (Next.js + React) to build a real-time dashboard tracking 100+ active leads and automating follow-up flows.',
+        'Led implementation of DentalScan V1 backend workflows for school deployments, enabling multi-portal access and supporting enrollment, consent validation, and scan visibility for 1,000+ student profiles.',
+        'Designed and optimized scalable REST APIs for multi-tenant systems, improving request routing efficiency and reducing server load by 15%, contributing to higher service reliability.',
+        'Integrated telecom and messaging infrastructure using Twilio, Telnyx, RetellAI, and OpenAI, automating high-volume communication flows and reducing manual outreach by 30%.',
+        'Engineered cross-provider telecom automation supporting number provisioning, failover routing, and metadata tracking, improving provisioning throughput by 40% and reducing operational overhead by 20%.',
+        'Investigated and resolved latency and delivery issues in voice and messaging pipelines by analyzing provider responses, traffic flow, and retry behavior.',
       ],
     },
     {
@@ -51,6 +53,15 @@ const resume = {
     },
   ],
   projects: [
+    {
+      name: 'Mapvia',
+      dates: '2025',
+      bullets: [
+        'Built a map-first discovery prototype visualizing 500+ Bay Area tech companies with clustered pins, detail drawers, and outbound site links.',
+        'Implemented a geospatial API with bbox, keyword, and tag filtering, cutting client-side processing by ~60%.',
+        'Delivered a high-performance map UI using Next.js, TypeScript, and Leaflet with sub-second interactions.',
+      ],
+    },
     {
       name: 'Blockchain-based Supply Chain Management',
       dates: 'Jan 2025 – May 2025',
@@ -120,4 +131,3 @@ const resume = {
 };
 
 export default resume;
-

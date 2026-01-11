@@ -1,6 +1,19 @@
 const projects = [
   {
     id: 1,
+    title: 'Mapvia - A map based job search',
+    description: 'Map-first discovery prototype visualizing 500+ Bay Area tech companies.',
+    tech: ['Next.js', 'TypeScript', 'Leaflet'],
+    highlights: [
+      'Clustered pins with detail drawers and outbound site links',
+      'Geospatial API with bbox, keyword, and tag filters reduced client work by ~60%',
+      'Sub-second interactions across the map UI'
+    ],
+    github: 'https://github.com/Dhanushsubbaiah/mapvia',
+    demo: 'https://mapvia.vercel.app/'
+  },
+  {
+    id: 2,
     title: 'Blockchain-based Supply Chain Management',
     description: 'Ethereum DApp simulating supply chain workflows for Manufacturer → Consumer with role-based access.',
     tech: ['Solidity', 'Hardhat', 'React', 'Ethers.js', 'MetaMask'],
@@ -13,7 +26,7 @@ const projects = [
     demo: ''
   },
   {
-    id: 2,
+    id: 3,
     title: 'Decentralized Exchange & NFT Marketplace (PoC)',
     description: 'Proof-of-concept DEX with mock token swaps, NFT trading, and staking rewards.',
     tech: ['Solidity', 'Next.js', 'Ethers.js', 'Wallet'],
@@ -26,7 +39,7 @@ const projects = [
     demo: ''
   },
   {
-    id: 3,
+    id: 4,
     title: 'Image Generation using GANs (DCGAN & StyleGAN)',
     description: 'Explored AI-based image generation and evaluation techniques over ~1,000 images.',
     tech: ['Python', 'PyTorch', 'DCGAN', 'StyleGAN'],
@@ -39,7 +52,7 @@ const projects = [
     demo: ''
   },
   {
-    id: 4,
+    id: 5,
     title: 'Cloud Service Access Management System',
     description: 'Node.js backend simulating API access control with 3 subscription tiers and RBAC.',
     tech: ['Node.js', 'Express', 'JWT', 'MongoDB'],
