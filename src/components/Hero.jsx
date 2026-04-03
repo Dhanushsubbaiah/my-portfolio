@@ -52,7 +52,7 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.35 }}
           >
             I build fast, scalable, and secure applications that bridge AI, blockchain, and cloud technologies.
-            Currently, I’m a Software Developer Intern at ReplyQuick.AI, where I design and implement animated React
+            Currently, I’m a Software Developer at ReplyQuick.AI, where I design and implement animated React
             dashboards and RESTful APIs for AI‑driven voice and SMS tools.
           </motion.p>
 
