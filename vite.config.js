@@ -14,7 +14,6 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: pathResolve(__dirname, 'index.html'),
-        resume: pathResolve(__dirname, 'resume.html'),
       },
     },
   },
