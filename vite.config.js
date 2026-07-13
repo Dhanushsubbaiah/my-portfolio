@@ -1,20 +1,10 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import { fileURLToPath } from 'url'
-import { dirname, resolve as pathResolve } from 'path'
 
 // https://vite.dev/config/
-const __filename = fileURLToPath(import.meta.url)
-const __dirname = dirname(__filename)
-
-export default defineConfig({
-  base: './',
+export default defineConfig(({ command }) => ({
+  // GitHub project pages are served from /<repository-name>/.
+  // Keep the dev server at / while generating production asset URLs for Pages.
+  base: command === 'build' ? '/my-portfolio/' : '/',
   plugins: [react()],
-  build: {
-    rollupOptions: {
-      input: {
-        main: pathResolve(__dirname, 'index.html'),
-      },
-    },
-  },
-})
+}))
